@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icone.png">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="headerLogin">
+            <div class="locadora">
+                <img class="logo" src="img/locflix-logo.png" alt="Logo da Locadora">
+            </div>
+        </div>
+        <div class="cadastro">
+            <h1>Cadastro de usuários</h1>
+            <form action="index.html" method="post">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="endereco">Endereço: </label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label for="estado">Estado: </label>
+                    <select name="estado">
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cidade">Cidade: </label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <p>Sexo:</p>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" id="masc" name="sexo" value="masculino">
+                    <label for="fem">Feminino</label>
+                    <input type="radio" id="fem" name="sexo" value="feminino">
+                </div>
+
+                <div>
+                    <p>Gêneros de filme favoritos:</p>
+                    <div>
+                        <label for="acao">Ação</label>
+                        <input type="checkbox" value="acao" id="acao" name="genero">
+                    </div>
+                    <div>
+                        <label for="aventura">Aventura</label>
+                        <input type="checkbox" value="aventura" id="aventura" name="genero">
+                    </div>
+                    <div>
+                        <label for="drama">Drama</label>
+                        <input type="checkbox" value="drama" id="drama" name="genero">
+                    </div>
+                    <div>
+                        <label for="fantasia">Fantasia</label>
+                        <input type="checkbox" value="fantasia" id="fantasia" name="genero">
+                    </div>
+                    <div>
+                        <label for="terror">Terror</label>
+                        <input type="checkbox" value="terror" id="terror" name="genero">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" name="usuario">
+                </div>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha">
+                </div>
+                <input type="submit" value="Cadastrar">
+                <a href="index.html">Voltar</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

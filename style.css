@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: #CCC;
+}
+.header{
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: #DDD;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.locadora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nome{
+    font-size: 25px;
+    font-family: Tahoma;
+    padding: 5px;
+}
+.logo{
+    height: 100%;
+}
+.opcoes, .opcoes2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.opcoes div, .opcoes2 div{
+    padding: 5px;
+    margin: 5px;
+    font-family: Tahoma;
+}
+.opcoes div{
+    font-size: 25px;
+}
+.filme{
+    width: 250px;
+    text-align: center;
+    font-family: Impact;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+.capa{
+    width:100%;
+}
+.biblioteca{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.conteudo{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.descricao{
+    font-family: Tahoma;
+    font-size: 18px;
+    margin: 0px 20px 20px 20px;
+}
+.descricao p{
+    margin-bottom: 5px;
+}
+.conteudo img{
+    width: 500px;
+}
+.headerLogin{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: #DDD;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.login, .login form{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login form div a{
+    margin: 5px;
+}
+.login input{
+    margin: 5px;
+}
+.cadastro, .cadastro form{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro div, .cadastro input{
+    margin: 5px;
+}
+textarea{
+    height: 250px;
+    width: 250px;
+    resize: none;
+    margin: 5px;
+}
+.contato, .contato form{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contato div, .contato input{
+    margin: 5px;
+}
+.sobre{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sobre img{
+    width: 300px;
+}
+.infomacoesPessoais p{
+    margin: 5px;
+}
+.principal{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.principal img{
+    width: 300px;
+    margin: 5px;
+}
+.principal table, .principal th, .principal td{
+    border: 1px solid black;
+}
+.principal p, .principal table{
+    margin: 5px;
+}
+.generos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Impact;
+    margin: 10px;
+    font-size: 18px;
+}
+.generos a{
+    margin: 5px;
+}
+.trailers{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trailers div{
+    font-family: Tahoma;
+    margin: 18px;
+}
+.trailers h1{
+    font-family: Tahoma;
+}
+.trailers video{
+    width: 500px;
+}
+.trilhas{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trilhas div{
+    font-family: Tahoma;
+    margin: 18px;
+}
+.trilhas h1{
+    font-family: Tahoma;
+}
+.trilhas audio{
+    width: 500px;
+}
